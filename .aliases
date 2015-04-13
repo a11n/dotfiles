@@ -1,0 +1,11 @@
+# Easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Remove directory
+alias rd="rm -rf"
+
+# Directory listings
+alias ll="ls -la"
