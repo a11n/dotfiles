@@ -1,0 +1,8 @@
+[user]
+	name = a11n
+	email = andre.diermann@gmail.com
+[core]
+	autocrlf = input
+	excludesfile = ~/.dotfiles/.gitignore_global
+[push]
+	default = simple

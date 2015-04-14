@@ -2,10 +2,11 @@
 
 link() {
   from="$HOME/.dotfiles/$1"
-  to="$HOME/$2"
+  to="$HOME/$1"
   echo "New symlink $to -> $from"
   rm -f $to
   ln -s $from $to
 }
 
-link .bash_profile .bash_profile
+link .bash_profile
+link .gitconfig
